@@ -1,1 +1,163 @@
-hi
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Beautiful Blog</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f2f5;
+      color: gray;
+      line-height: 1.8;
+    }
+
+    /* Header */
+    header {
+      background: lightskyblue;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    /* Navbar */
+    nav {
+      background: #ffffff;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: blue;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    nav a:hover {
+      color: darkblue;
+    }
+
+    /* Container */
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    /* Articles */
+    article {
+      background: white;
+      padding: 25px;
+      margin-bottom: 40px;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    article:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+
+    article h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      color: #005a9e;
+    }
+
+    article small {
+      display: block;
+      margin-bottom: 15px;
+      color: #666;
+    }
+
+    article p {
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+    }
+
+    article img {
+      width: 100%;
+      border-radius: 10px;
+      margin: 15px 0;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #0078d7;
+      color: white;
+      margin-top: 50px;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>My Beautiful Blog</h1>
+    <p>Sharing ideas, knowledge, and stories with the world</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Articles</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <!-- Blog Container -->
+  <div class="container">
+    <article>
+      <h2> My First Blog Post</h2>
+      <small>Published on August 29, 2025</small>
+      <img src="https://media.istockphoto.com/id/1381637603/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=w64j3fW8C96CfYo3kbi386rs_sHH_6BGe8lAAAFS-y4=" alt="Blog cover">
+      <p>Welcome to my first blog post! This website is made with just HTML and CSS, yet it already looks clean and professional. Web development is powerful and fun!</p>
+    </article>
+
+    <article>
+      <h2>Learning HTML & CSS</h2>
+      <small>Published on August 30, 2025</small>
+      <img src="https://www.shutterstock.com/shutterstock/photos/2198009967/display_1500/stock-photo-autumn-forest-path-orange-color-tree-red-brown-maple-leaves-in-fall-city-park-nature-scene-in-2198009967.jpg" alt="Learning web dev">
+      <p>HTML is used to structure the content of a website, while CSS makes it look nice and styled. With these two tools, you can build stunning websites without frameworks.</p>
+    </article>
+
+    <article>
+      <h2>Why Start Blogging?</h2>
+      <small>Published on August 31, 2025</small>
+      <img src="https://static.vecteezy.com/system/resources/thumbnails/031/734/444/small_2x/mt-fuji-and-lake-kawaguchiko-in-autumn-japan-colorful-autumn-season-and-mount-fuji-with-morning-fog-and-red-leaves-at-lake-kawaguchiko-ai-generated-free-photo.jpg" alt="Blogging">
+      <p>Blogging helps you practice writing, share your thoughts with the world, and even create a personal brand. Everyone can start a blog — all you need is passion and creativity.</p>
+    </article>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 My Beautiful Blog | Designed with  using HTML & CSS</p>
+  </footer>
+</body>
+</html>
